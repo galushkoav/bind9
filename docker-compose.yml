@@ -1,0 +1,13 @@
+bind:
+  #image: 'pstauffer/bind:stable'
+  build: build/bind
+  container_name: 'bind'
+  ports:
+    - "53:53/udp"
+    - "53:53"
+
+  volumes:
+  - ./configs/bind:/etc/bind
+  - ./logs/:/var/log/named
+
+  restart: always

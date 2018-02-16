@@ -1,0 +1,23 @@
+$TTL 3h
+@   IN SOA dc.itc-life.ru. administrator.itc-life.ru. (
+    2017092701 ; Это число тоже нужно менять
+    3h         ;
+    1h         ;
+    1w         ;
+    1h
+)
+
+      IN NS dc.itc-life.ru.
+
+1   IN PTR dc.itc-life.ru. ; Наш сервер
+
+101 IN PTR arm01.itc-life.ru.
+102 IN PTR arm02.itc-life.ru.
+103 IN PTR arm03.itc-life.ru.
+104 IN PTR arm04.itc-life.ru.
+105 IN PTR arm05.itc-life.ru.
+106 IN PTR arm06.itc-life.ru.
+107 IN PTR arm07.itc-life.ru.
+108 IN PTR arm08.itc-life.ru.
+109 IN PTR arm09.itc-life.ru.
+110 IN PTR arm10.itc-life.ru.
