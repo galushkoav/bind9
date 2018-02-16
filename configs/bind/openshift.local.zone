@@ -1,0 +1,17 @@
+$TTL 30
+$ORIGIN openshift.local.
+ 
+@ IN SOA openshift.local. admin.openshift.local. (
+    2015020301 ; Serial
+            1d ; Refresh
+            1h ; Retry
+            1w ; Expire
+            2h ; Negative Cache TTL
+    )
+ 
+@   IN   NS   openshift.local.
+@   IN   A    10.12.4.51
+*   IN   A    10.12.4.51
+master   IN   A    10.12.4.49
+node1   IN   A    10.12.4.50
+node2   IN   A    10.12.4.51
