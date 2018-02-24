@@ -10,8 +10,7 @@ $ORIGIN itc-life.ru.
     )
  
 @   IN   NS   itc-life.ru.
-@   IN   NS   ns.provider.org.
-@   IN   A    10.12.4.44
-*   IN   A    10.12.4.44
-test   IN   A    10.12.4.43
-router   IN   A    10.12.4.45
+*   IN   A    192.168.88.10
+www.itc-life.ru.  IN   A    192.168.88.10
+itc-life.ru.  IN   A    192.168.88.10
+registry.git.itc-life.ru. IN   A    192.168.88.10
